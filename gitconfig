@@ -1,0 +1,7 @@
+$ cat .gitconfig 
+[alias]
+  ci = commit
+  co = checkout
+  lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(cyan)<%an>%Creset' --abbrev-commit --date=relative
+  su = submodule update --init --recursive
+  st = status
